@@ -1,0 +1,87 @@
+{
+    "@class": "io.onedev.server.event.issue.IssueChanged",
+    "user": {
+        "id": 1,
+        "name": "testuser",
+        "fullName": "Daniel Gollings"
+    },
+    "date": "2022-09-16T19:27:33.292+00:00",
+    "project": {
+        "id": 1,
+        "name": "test",
+        "description": "A repo for all Keana code",
+        "createDate": "2022-08-08T09:35:31.816+00:00",
+        "updateDate": "2022-09-16T19:25:00.383+00:00",
+        "codeManagement": true,
+        "issueManagement": true,
+        "forkedFromId": null,
+        "parentId": null,
+        "defaultRoleId": 2
+    },
+    "issue": {
+        "id": 2510,
+        "state": "Closed",
+        "stateOrdinal": 3,
+        "title": "New test issue",
+        "description": null,
+        "submitDate": "2022-09-16T19:26:47.668+00:00",
+        "voteCount": 0,
+        "commentCount": 0,
+        "uuid": "1364a99a-05f2-4bf8-99f8-20e956d355d9",
+        "number": 3,
+        "threadingReference": null,
+        "lastUpdate": {
+            "date": "2022-09-16T19:26:47.668+00:00",
+            "activity": "opened",
+            "userId": 1
+        },
+        "confidential": false,
+        "numberScopeId": 1,
+        "projectId": 1,
+        "submitterId": 1
+    },
+    "change": {
+        "id": 1357,
+        "date": "2022-09-16T19:27:33.292+00:00",
+        "data": {
+            "@type": "IssueStateChangeData",
+            "oldFields": {
+                "Type": {
+                    "name": "Type",
+                    "type": "Enumeration",
+                    "values": [
+                        "Bug"
+                    ]
+                },
+                "Priority": {
+                    "name": "Priority",
+                    "type": "Enumeration",
+                    "values": [
+                        "Normal"
+                    ]
+                }
+            },
+            "newFields": {
+                "Type": {
+                    "name": "Type",
+                    "type": "Enumeration",
+                    "values": [
+                        "Bug"
+                    ]
+                },
+                "Priority": {
+                    "name": "Priority",
+                    "type": "Enumeration",
+                    "values": [
+                        "Normal"
+                    ]
+                }
+            },
+            "oldState": "Open",
+            "newState": "Closed"
+        },
+        "issueId": 2510,
+        "userId": 1
+    },
+    "comment": null
+}

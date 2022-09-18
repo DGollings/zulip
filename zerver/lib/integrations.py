@@ -430,6 +430,7 @@ WEBHOOK_INTEGRATIONS: List[WebhookIntegration] = [
     WebhookIntegration("mention", ["marketing"], display_name="Mention"),
     WebhookIntegration("netlify", ["continuous-integration", "deployment"], display_name="Netlify"),
     WebhookIntegration("newrelic", ["monitoring"], display_name="New Relic"),
+    WebhookIntegration("onedev", ["continuous-integration", "version-control"], display_name="Onedev"),
     WebhookIntegration(
         "opbeat",
         ["monitoring"],
