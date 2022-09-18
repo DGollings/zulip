@@ -1,0 +1,92 @@
+{
+    "@class": "io.onedev.server.event.issue.IssueChanged",
+    "user": {
+        "id": 1,
+        "name": "daniel",
+        "fullName": "Daniel Gollings"
+    },
+    "date": "2022-09-17T10:55:00.308+00:00",
+    "project": {
+        "id": 1,
+        "name": "core",
+        "description": "A repo for all Keana code",
+        "createDate": "2022-08-08T09:35:31.816+00:00",
+        "updateDate": "2022-09-17T09:15:09.255+00:00",
+        "codeManagement": true,
+        "issueManagement": true,
+        "forkedFromId": null,
+        "parentId": null,
+        "defaultRoleId": 2
+    },
+    "issue": {
+        "id": 2512,
+        "state": "Open",
+        "stateOrdinal": 0,
+        "title": "test create",
+        "description": "test creation",
+        "submitDate": "2022-09-17T09:15:09.255+00:00",
+        "voteCount": 0,
+        "commentCount": 1,
+        "uuid": "84fbb884-aacd-4b24-a2b8-7ebffa075dec",
+        "number": 851,
+        "threadingReference": null,
+        "lastUpdate": {
+            "date": "2022-09-17T10:54:41.945+00:00",
+            "activity": "commented",
+            "userId": 1
+        },
+        "confidential": false,
+        "numberScopeId": 1,
+        "projectId": 1,
+        "submitterId": 1
+    },
+    "change": {
+        "id": 1362,
+        "date": "2022-09-17T10:55:00.308+00:00",
+        "data": {
+            "@type": "IssueFieldChangeData",
+            "oldFields": {
+                "Type": {
+                    "name": "Type",
+                    "type": "Enumeration",
+                    "values": [
+                        "Bug"
+                    ]
+                },
+                "Priority": {
+                    "name": "Priority",
+                    "type": "Enumeration",
+                    "values": [
+                        "Normal"
+                    ]
+                }
+            },
+            "newFields": {
+                "Type": {
+                    "name": "Type",
+                    "type": "Enumeration",
+                    "values": [
+                        "Bug"
+                    ]
+                },
+                "Priority": {
+                    "name": "Priority",
+                    "type": "Enumeration",
+                    "values": [
+                        "Normal"
+                    ]
+                },
+                "Assignees": {
+                    "name": "Assignees",
+                    "type": "User",
+                    "values": [
+                        "daniel"
+                    ]
+                }
+            }
+        },
+        "issueId": 2512,
+        "userId": 1
+    },
+    "comment": null
+}

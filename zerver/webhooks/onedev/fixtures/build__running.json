@@ -1,0 +1,42 @@
+{
+    "@class": "io.onedev.server.event.build.BuildRunning",
+    "user": null,
+    "date": "2022-09-17T08:03:38.576+00:00",
+    "project": {
+        "id": 1,
+        "name": "core",
+        "description": "A repo for all Keana code",
+        "createDate": "2022-08-08T09:35:31.816+00:00",
+        "updateDate": "2022-09-16T19:29:50.928+00:00",
+        "codeManagement": true,
+        "issueManagement": true,
+        "forkedFromId": null,
+        "parentId": null,
+        "defaultRoleId": 2
+    },
+    "build": {
+        "id": 4569,
+        "jobName": "test/api/ingressegresses",
+        "jobWorkspace": null,
+        "refName": "refs/pulls/28/merge",
+        "version": null,
+        "description": null,
+        "uuid": "d4e8a6f6-3db1-47f4-81b0-814fa91a828b",
+        "number": 4524,
+        "commitHash": "44a9d09f07018c791a82d7f9c486313fdf4a444f",
+        "status": "RUNNING",
+        "submitDate": "2022-09-17T07:56:51.054+00:00",
+        "pendingDate": "2022-09-17T07:56:52.545+00:00",
+        "runningDate": "2022-09-17T08:03:38.576+00:00",
+        "finishDate": null,
+        "retryDate": null,
+        "pipeline": "e94188f9-33b2-4774-a1d5-be038d428303",
+        "submitReason": "Pull request #28 is opened/updated",
+        "numberScopeId": 1,
+        "projectId": 1,
+        "agentId": 5,
+        "submitterId": -1,
+        "cancellerId": null,
+        "requestId": 65
+    }
+}

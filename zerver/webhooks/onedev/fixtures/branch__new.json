@@ -1,0 +1,20 @@
+{
+    "@class": "io.onedev.server.event.RefUpdated",
+    "user": null,
+    "date": "2022-09-17T11:11:13.400+00:00",
+    "project": {
+        "id": 1,
+        "name": "core",
+        "description": "A repo for all Keana code",
+        "createDate": "2022-08-08T09:35:31.816+00:00",
+        "updateDate": "2022-09-17T11:02:34.042+00:00",
+        "codeManagement": true,
+        "issueManagement": true,
+        "forkedFromId": null,
+        "parentId": null,
+        "defaultRoleId": 2
+    },
+    "refName": "refs/heads/testtestbranch",
+    "oldCommitId": "0000000000000000000000000000000000000000",
+    "newCommitId": "289e2d3a57abfa43bcbb4b8d9fc969046a074078"
+}

@@ -1,0 +1,58 @@
+{
+    "@class": "io.onedev.server.event.pullrequest.PullRequestChanged",
+    "user": {
+        "id": 1,
+        "name": "daniel",
+        "fullName": "Daniel Gollings"
+    },
+    "date": "2022-09-18T08:54:02.708+00:00",
+    "project": {
+        "id": 1,
+        "name": "core",
+        "description": "A repo for all Keana code",
+        "createDate": "2022-08-08T09:35:31.816+00:00",
+        "updateDate": "2022-09-18T08:48:08.119+00:00",
+        "codeManagement": true,
+        "issueManagement": true,
+        "forkedFromId": null,
+        "parentId": null,
+        "defaultRoleId": 2
+    },
+    "request": {
+        "id": 65,
+        "status": "OPEN",
+        "title": "test - rename",
+        "description": null,
+        "targetBranch": "testtestbranch",
+        "sourceBranch": "master",
+        "baseCommitHash": "1bc464f55633cda26f9d281a753350b85eac08b9",
+        "submitDate": "2022-09-17T07:56:39.849+00:00",
+        "mergeStrategy": "CREATE_MERGE_COMMIT",
+        "uuid": "06818abc-213e-44e9-b03a-4e5e21f83ed2",
+        "number": 28,
+        "commentCount": 2,
+        "lastUpdate": {
+            "date": "2022-09-18T08:54:02.708+00:00",
+            "activity": "changed target branch",
+            "userId": 1
+        },
+        "codeCommentsUpdateDate": null,
+        "checkError": null,
+        "submitterId": 1,
+        "numberScopeId": 1,
+        "targetProjectId": 1,
+        "sourceProjectId": 1
+    },
+    "change": {
+        "id": 133,
+        "date": "2022-09-18T08:54:02.708+00:00",
+        "data": {
+            "@type": "PullRequestTargetBranchChangeData",
+            "oldBranch": "740-new-shipment-list-screens",
+            "newBranch": "testtestbranch"
+        },
+        "requestId": 65,
+        "userId": 1
+    },
+    "note": null
+}
